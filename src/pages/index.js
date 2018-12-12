@@ -13,7 +13,8 @@ class IndexPage extends React.Component {
       timeout: false,
       articleTimeout: false,
       article: '',
-      loading: 'is-loading'
+      loading: 'is-loading',
+      Date: new Date()
     }
     this.handleOpenArticle = this.handleOpenArticle.bind(this)
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
@@ -103,7 +104,7 @@ class IndexPage extends React.Component {
               onCloseArticle={this.handleCloseArticle}
               setWrapperRef={this.setWrapperRef}
             />
-            <Footer timeout={this.state.timeout} />
+            <Footer timeout={this.state.timeout} date={this.state.Date}/>
           </div>
           <div id="bg"></div>
         </div>
