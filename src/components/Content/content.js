@@ -1,7 +1,14 @@
+import pic01 from "../../images/bg.jpg";
+import pic02 from "../../images/bg2.jpg";
+import pic03 from "../../images/bg3.jpg";
+import pic04 from "../../images/vision.jpg";
+
+
 export const contenidos = [
 {
-name:"intro",
-title:"Misión y Visión",
+name: 'intro',
+title: 'Misión y Visión',
+pic: pic04,
 content:`
 ### Misión
 
@@ -20,6 +27,7 @@ Nuestro compromiso hacia nuestros clientes, así como para con nuestro equipo de
 {
 name:"nosotros",
 title:"Nosotros",
+pic: pic03,
 content:`
 ### Objetivo
 
@@ -35,31 +43,25 @@ Nuestro objetivo es efectuar análisis Físico-Químicos y Microbiológicos de m
 {
 name:"Quejas y Sugerencias",
 title:"Quejas y Sugerencias",
+pic: pic02,
 content:`
 ### Quejas y Sugerencias
 
 Sus sugerencias nos ayudan a mejorar el servicio.
 
-
 El Laboratorio de Análisis y Control Especializado S.A. de C.V. recibe por este medio las quejas y sugerencias asi como sus comentarios relacionados con los servicios brindados por este laboratorio.
 
+Por lo tanto, si usted tiene alguna inconformidad con el servicio que brindamos, o bien quiere apoyarnos a mejorarnos como empresa, le invitamos a mandar un mensaje en nuestra sección de contacto.
 
-
-Por lo tanto, si usted tiene alguna inconformidad con el servicio que brindamos, o bien quiere apoyarnos a mejorarnos como empresa, le invitamos a llenar el siguiente formulario y enviarnos sus comentarios.
-
-
-Tambien puede enviarnos un correo a la dirección que se encuentra en la parte derecha de su pantalla.
 `
 },
 {
 name:"Aviso",
 title:"Aviso de Privacidad",
+pic: '',
 content:`Laboratorio de Análisis y Control Especializado S.A. de C.V., mejor conocido como LACESA, con domicilio en calle Sabancuy Mza.21 Lte.22, colonia Ah Kim Pech Reg. 98, ciudad Cancún, municipio o delegación Benito Juárez, c.p. 77537, en la entidad de Quintana Roo, país México, y portal de internet www.lacesa.com, es el responsable del uso y protección de sus datos personales, y al respecto le informamos lo siguiente:
 
-
 De manera adicional, utilizaremos su información personal para las siguientes finalidades secundarias que no son necesarias para el servicio solicitado, pero que nos permiten y facilitan brindarle una mejor atención:
-
-
 
 1. Informarle sobre nuestro marco analítico ante COFEPRIS.
 2. Registro único en nuestra base de datos
@@ -71,7 +73,6 @@ De manera adicional, utilizaremos su información personal para las siguientes f
 8. Dar cumplimiento a las obligaciones que hemos contraído con usted
 
 Se hace del conocimiento que LACESA, única y exclusivamente podrá compartir información en los siguientes supuestos:
-
 
 Por regla general no compartimos información sin el consentimiento explícito del titular y no la difundimos, distribuimos, ni comercializamos.
 Para complementar un procedimiento solicitado por el titular.
