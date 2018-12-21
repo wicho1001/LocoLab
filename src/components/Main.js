@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { AvisoPrivacidad } from './Content/content';
 import MDReactComponent from 'markdown-react-js'
 import { contenidos } from './Content/content'
 
