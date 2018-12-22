@@ -23,9 +23,7 @@ class Main extends Component {
     return (
       <div ref={this.props.setWrapperRef} id='main' style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}>
 
-        <div>
-          {infoToShow}
-        </div>
+        {infoToShow}
 
         <article id='contact' className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none', alignItems: 'center' }}>
           <h2 className='major'>Contacto</h2>
