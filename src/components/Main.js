@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { AvisoPrivacidad } from './Content/content';
 import MDReactComponent from 'markdown-react-js'
 import { contenidos } from './Content/content'
 
@@ -24,9 +23,7 @@ class Main extends Component {
     return (
       <div ref={this.props.setWrapperRef} id='main' style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}>
 
-        <div>
-          {infoToShow}
-        </div>
+        {infoToShow}
 
         <article id='contact' className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none', alignItems: 'center' }}>
           <h2 className='major'>Contacto</h2>
